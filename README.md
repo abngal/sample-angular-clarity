@@ -1,3 +1,6 @@
+Current Look
+![Current Look](https://raw.githubusercontent.com/abngal/sample-angular-clarity/master/showcase/images/applook.png)
+
 # SampleAngularClarity
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
