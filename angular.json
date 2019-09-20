@@ -29,6 +29,8 @@
             ],
             "styles": [
               "src/styles.scss"
+              "../node_modules/@clr/icons/clr-icons.min.css",
+              "../node_modules/@clr/ui/clr-ui.min.css"
             ],
             "scripts": []
           },
