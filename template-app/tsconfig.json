@@ -5,7 +5,13 @@
   To learn more about this file see: https://angular.io/config/solution-tsconfig.
 */
 {
-  "files": [],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@data/*": [ "app/data/*" ],
+      "@app/*": [ "app/*" ]
+    }
+  },
   "references": [
     {
       "path": "./tsconfig.app.json"
@@ -13,5 +19,5 @@
     {
       "path": "./tsconfig.spec.json"
     }
-]
+  ]
 }
