@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import { ClarityModule } from '@clr/angular';
+
 import { DatatableComponent } from './components/datatable.component';
 
 
@@ -10,6 +12,7 @@ import { DatatableComponent } from './components/datatable.component';
   ],
   imports: [
     CommonModule,
+    ClarityModule,
   ],
   exports: [
     DatatableComponent,

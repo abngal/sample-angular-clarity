@@ -16,7 +16,6 @@ import { ClaritySkeletonComponent } from './layout/clarity-skeleton/clarity-skel
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ClarityModule,
     BrowserAnimationsModule,
     CommonClassesModule,
   ],
