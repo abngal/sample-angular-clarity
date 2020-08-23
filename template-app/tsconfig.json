@@ -6,6 +6,7 @@
 */
 {
   "compilerOptions": {
+    "experimentalDecorators": true,
     "baseUrl": "src",
     "paths": {
       "@data/*": [ "app/data/*" ],
