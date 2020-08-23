@@ -1,22 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DatatableComponent } from './datatable/datatable.component';
-import { ClarityMainComponent } from './layout/clarity-main/clarity-main.component';
-
-
+import { ClarityModule } from '@clr/angular';
+import { DatatableComponent } from './components/datatable.component';
 
 
 @NgModule({
   declarations: [
-    ClarityMainComponent,
     DatatableComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports: [
     DatatableComponent,
-    ClarityMainComponent,
   ]
 })
 export class CommonClassesModule { }
