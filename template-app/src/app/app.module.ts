@@ -5,13 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ClarityModule } from '@clr/angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ClarityMainComponent } from './layout/clarity-main/clarity-main.component';
-import { CommonClassesModule } from './common/common-classes/common-classes.module';
+import { CommonClassesModule } from './common/common-classes.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClarityMainComponent,
   ],
   imports: [
     BrowserModule,
