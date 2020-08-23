@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ClarityModule } from '@clr/angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ClarityMainComponent } from './layout/clarity-main/clarity-main.component';
+import { CommonClassesModule } from './common/common-classes/common-classes.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ClarityMainComponent } from './layout/clarity-main/clarity-main.compone
     BrowserModule,
     AppRoutingModule,
     ClarityModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    CommonClassesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
